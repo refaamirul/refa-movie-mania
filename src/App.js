@@ -40,7 +40,7 @@ const App = () => {
       <header className="App-header">
         <h1>REFA MOVIE MANIA</h1>
         <input
-          placeholder="cari film kesayangan..."
+          placeholder="Search.."
           className="Movie-search"
           onChange={({ target }) => search(target.value)}
         />
